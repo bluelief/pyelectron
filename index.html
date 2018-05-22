@@ -1,0 +1,20 @@
+<!--
+  Copyright (c) 2018 bluelief.
+  Licensed under the MIT License.
+-->
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Get HTTP Request</title>
+  <meta name="copyright" content="(c) 2018 bluelief.">
+  <script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+  <div id="result" class="hoge"><input v-model="forminput" placeholder="edit me" v-on:keyup.13="submit"></input><br>{{message}}</div>
+</body>
+<script>
+require('./http_req.js')
+</script>
+</html>

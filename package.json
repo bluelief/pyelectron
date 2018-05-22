@@ -1,0 +1,37 @@
+{
+  "name": "pyelectron",
+  "version": "1.0.0",
+  "description": "Electron + Vuejs + Python",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bluelief/pyelectron.git"
+  },
+  "keywords": [
+    "Electron",
+    "Vue",
+    "Vuejs",
+    "node",
+    "Python"
+  ],
+  "author": "bluelief",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bluelief/pyelectron/issues"
+  },
+  "homepage": "https://github.com/bluelief/pyelectron#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "electron": "^2.0.1",
+    "require": "^2.4.20",
+    "vue": "^2.5.16"
+  },
+  "devDependencies": {
+    "electron-packager": "^12.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": ".\\node_modules\\.bin\\electron .",
+    "package-win": ".\\node_modules\\.bin\\electron-packager . pyelectron --overwrite --platform=win32 --out=release-builds --version-string.CompanyName=CE --version-string.FileDescription=CE"
+  }
+}
