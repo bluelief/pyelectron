@@ -6,4 +6,4 @@ package-lock.json
 #ignore folders
 node_modules/
 release-builds/
-
+.vscode/
