@@ -22,7 +22,7 @@
   "homepage": "https://github.com/bluelief/pyelectron#readme",
   "dependencies": {
     "axios": "^0.18.0",
-    "electron": "^2.0.1",
+    "electron": "^9.1.0",
     "require": "^2.4.20",
     "vue": "^2.5.16"
   },
